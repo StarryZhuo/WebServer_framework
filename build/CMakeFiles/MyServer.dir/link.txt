@@ -1,0 +1,1 @@
+/usr/bin/x86_64-linux-gnu-g++-8 -fPIC -g -shared -Wl,-soname,libMyServer.so -o ../lib/libMyServer.so CMakeFiles/MyServer.dir/MyServer/log.cc.o CMakeFiles/MyServer.dir/MyServer/util.cc.o CMakeFiles/MyServer.dir/MyServer/config.cc.o CMakeFiles/MyServer.dir/MyServer/thread.cc.o   -L/usr/local/lib 

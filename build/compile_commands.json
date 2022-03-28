@@ -1,0 +1,37 @@
+[
+{
+  "directory": "/home/starry/My_Server_Framework/build",
+  "command": "/usr/bin/x86_64-linux-gnu-g++-8 -DMyServer_EXPORTS -I/home/starry/My_Server_Framework/. -g -fPIC -o CMakeFiles/MyServer.dir/MyServer/log.cc.o -c /home/starry/My_Server_Framework/MyServer/log.cc",
+  "file": "/home/starry/My_Server_Framework/MyServer/log.cc"
+},
+{
+  "directory": "/home/starry/My_Server_Framework/build",
+  "command": "/usr/bin/x86_64-linux-gnu-g++-8 -DMyServer_EXPORTS -I/home/starry/My_Server_Framework/. -g -fPIC -o CMakeFiles/MyServer.dir/MyServer/util.cc.o -c /home/starry/My_Server_Framework/MyServer/util.cc",
+  "file": "/home/starry/My_Server_Framework/MyServer/util.cc"
+},
+{
+  "directory": "/home/starry/My_Server_Framework/build",
+  "command": "/usr/bin/x86_64-linux-gnu-g++-8 -DMyServer_EXPORTS -I/home/starry/My_Server_Framework/. -g -fPIC -o CMakeFiles/MyServer.dir/MyServer/config.cc.o -c /home/starry/My_Server_Framework/MyServer/config.cc",
+  "file": "/home/starry/My_Server_Framework/MyServer/config.cc"
+},
+{
+  "directory": "/home/starry/My_Server_Framework/build",
+  "command": "/usr/bin/x86_64-linux-gnu-g++-8 -DMyServer_EXPORTS -I/home/starry/My_Server_Framework/. -g -fPIC -o CMakeFiles/MyServer.dir/MyServer/thread.cc.o -c /home/starry/My_Server_Framework/MyServer/thread.cc",
+  "file": "/home/starry/My_Server_Framework/MyServer/thread.cc"
+},
+{
+  "directory": "/home/starry/My_Server_Framework/build",
+  "command": "/usr/bin/x86_64-linux-gnu-g++-8  -I/home/starry/My_Server_Framework/. -g -o CMakeFiles/test.dir/tests/test.cc.o -c /home/starry/My_Server_Framework/tests/test.cc",
+  "file": "/home/starry/My_Server_Framework/tests/test.cc"
+},
+{
+  "directory": "/home/starry/My_Server_Framework/build",
+  "command": "/usr/bin/x86_64-linux-gnu-g++-8  -I/home/starry/My_Server_Framework/. -g -o CMakeFiles/test_config.dir/tests/test_config.cc.o -c /home/starry/My_Server_Framework/tests/test_config.cc",
+  "file": "/home/starry/My_Server_Framework/tests/test_config.cc"
+},
+{
+  "directory": "/home/starry/My_Server_Framework/build",
+  "command": "/usr/bin/x86_64-linux-gnu-g++-8  -I/home/starry/My_Server_Framework/. -g -o CMakeFiles/test_thread.dir/tests/test_thread.cc.o -c /home/starry/My_Server_Framework/tests/test_thread.cc",
+  "file": "/home/starry/My_Server_Framework/tests/test_thread.cc"
+}
+]

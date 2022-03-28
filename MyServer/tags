@@ -1,0 +1,243 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+DEBUG	log.h	/^		DEBUG = 1,$/;"	e	enum:MyServer::LogLevel::Level
+DateTimeFormatItem	log.cc	/^	DateTimeFormatItem(const std::string& format = "%Y:%m:%d %H:%M:%s"):m_format(format) {$/;"	f	class:MyServer::DateTimeFormatItem	access:public	signature:(const std::string& format = �)
+DateTimeFormatItem	log.cc	/^class DateTimeFormatItem : public LogFormatter::FormatItem {$/;"	c	namespace:MyServer	file:	inherits:LogFormatter::FormatItem
+ERROR	log.h	/^		ERROR = 4,$/;"	e	enum:MyServer::LogLevel::Level
+ElapseFormatItem	log.cc	/^	ElapseFormatItem(const std::string& str = "") {}$/;"	f	class:MyServer::ElapseFormatItem	access:public	signature:(const std::string& str = �)
+ElapseFormatItem	log.cc	/^class ElapseFormatItem : public LogFormatter::FormatItem {$/;"	c	namespace:MyServer	file:	inherits:LogFormatter::FormatItem
+FATAL	log.h	/^		FATAL = 5$/;"	e	enum:MyServer::LogLevel::Level
+FiberIdFormatItem	log.cc	/^	FiberIdFormatItem(const std::string& str = "") {}$/;"	f	class:MyServer::FiberIdFormatItem	access:public	signature:(const std::string& str = �)
+FiberIdFormatItem	log.cc	/^class FiberIdFormatItem : public LogFormatter::FormatItem {$/;"	c	namespace:MyServer	file:	inherits:LogFormatter::FormatItem
+FileLogAppender	log.cc	/^FileLogAppender::FileLogAppender(const std::string& filename)$/;"	f	class:MyServer::FileLogAppender	signature:(const std::string& filename)
+FileLogAppender	log.h	/^	FileLogAppender(const std::string& filename);$/;"	p	class:MyServer::FileLogAppender	access:public	signature:(const std::string& filename)
+FileLogAppender	log.h	/^class FileLogAppender : public LogAppender {$/;"	c	namespace:MyServer	inherits:LogAppender
+FileNameFormatItem	log.cc	/^	FileNameFormatItem(const std::string& str = "") {}$/;"	f	class:MyServer::FileNameFormatItem	access:public	signature:(const std::string& str = �)
+FileNameFormatItem	log.cc	/^class FileNameFormatItem : public LogFormatter::FormatItem {$/;"	c	namespace:MyServer	file:	inherits:LogFormatter::FormatItem
+FormatItem	log.h	/^		FormatItem(const std::string& fmt = "") {}$/;"	f	class:MyServer::LogFormatter::FormatItem	access:public	signature:(const std::string& fmt = �)
+FormatItem	log.h	/^	class FormatItem {$/;"	c	class:MyServer::LogFormatter	access:public
+INFO	log.h	/^		INFO = 2,$/;"	e	enum:MyServer::LogLevel::Level
+Level	log.h	/^	enum  Level{$/;"	g	class:MyServer::LogLevel	access:public
+LevelFormatItem	log.cc	/^	LevelFormatItem(const std::string& str = "") {}$/;"	f	class:MyServer::LevelFormatItem	access:public	signature:(const std::string& str = �)
+LevelFormatItem	log.cc	/^class LevelFormatItem : public LogFormatter::FormatItem {$/;"	c	namespace:MyServer	file:	inherits:LogFormatter::FormatItem
+LineFormatItem	log.cc	/^	LineFormatItem(const std::string& str = "") {}$/;"	f	class:MyServer::LineFormatItem	access:public	signature:(const std::string& str = �)
+LineFormatItem	log.cc	/^class LineFormatItem : public LogFormatter::FormatItem {$/;"	c	namespace:MyServer	file:	inherits:LogFormatter::FormatItem
+LogAppender	log.h	/^class LogAppender{$/;"	c	namespace:MyServer
+LogEvent	log.h	/^	LogEvent();$/;"	p	class:MyServer::LogEvent	access:public	signature:()
+LogEvent	log.h	/^class LogEvent {$/;"	c	namespace:MyServer
+LogFormatter	log.cc	/^LogFormatter::LogFormatter(const std::string& pattern)$/;"	f	class:MyServer::LogFormatter	signature:(const std::string& pattern)
+LogFormatter	log.h	/^	LogFormatter(const std::string& pattern);$/;"	p	class:MyServer::LogFormatter	access:public	signature:(const std::string& pattern)
+LogFormatter	log.h	/^class LogFormatter {$/;"	c	namespace:MyServer
+LogLevel	log.h	/^class LogLevel {$/;"	c	namespace:MyServer
+Logger	log.cc	/^Logger::Logger(const std::string& name ):m_name(name) {$/;"	f	class:MyServer::Logger	signature:(const std::string& name )
+Logger	log.h	/^	Logger(const std::string& name = "root");$/;"	p	class:MyServer::Logger	access:public	signature:(const std::string& name = �)
+Logger	log.h	/^class Logger : public std::enable_shared_from_this<Logger>{$/;"	c	namespace:MyServer	inherits:std::enable_shared_from_this
+MessageFormatItem	log.cc	/^	MessageFormatItem(const std::string& str = "") {}$/;"	f	class:MyServer::MessageFormatItem	access:public	signature:(const std::string& str = �)
+MessageFormatItem	log.cc	/^class MessageFormatItem : public LogFormatter::FormatItem {$/;"	c	namespace:MyServer	file:	inherits:LogFormatter::FormatItem
+MyServer	log.cc	/^namespace MyServer {$/;"	n	file:
+MyServer	log.h	/^namespace MyServer {$/;"	n
+MyServer::DateTimeFormatItem	log.cc	/^class DateTimeFormatItem : public LogFormatter::FormatItem {$/;"	c	namespace:MyServer	file:	inherits:LogFormatter::FormatItem
+MyServer::DateTimeFormatItem::DateTimeFormatItem	log.cc	/^	DateTimeFormatItem(const std::string& format = "%Y:%m:%d %H:%M:%s"):m_format(format) {$/;"	f	class:MyServer::DateTimeFormatItem	access:public	signature:(const std::string& format = �)
+MyServer::DateTimeFormatItem::m_format	log.cc	/^	std::string m_format;$/;"	m	class:MyServer::DateTimeFormatItem	file:	access:private
+MyServer::ElapseFormatItem	log.cc	/^class ElapseFormatItem : public LogFormatter::FormatItem {$/;"	c	namespace:MyServer	file:	inherits:LogFormatter::FormatItem
+MyServer::ElapseFormatItem::ElapseFormatItem	log.cc	/^	ElapseFormatItem(const std::string& str = "") {}$/;"	f	class:MyServer::ElapseFormatItem	access:public	signature:(const std::string& str = �)
+MyServer::FiberIdFormatItem	log.cc	/^class FiberIdFormatItem : public LogFormatter::FormatItem {$/;"	c	namespace:MyServer	file:	inherits:LogFormatter::FormatItem
+MyServer::FiberIdFormatItem::FiberIdFormatItem	log.cc	/^	FiberIdFormatItem(const std::string& str = "") {}$/;"	f	class:MyServer::FiberIdFormatItem	access:public	signature:(const std::string& str = �)
+MyServer::FileLogAppender	log.h	/^class FileLogAppender : public LogAppender {$/;"	c	namespace:MyServer	inherits:LogAppender
+MyServer::FileLogAppender::FileLogAppender	log.cc	/^FileLogAppender::FileLogAppender(const std::string& filename)$/;"	f	class:MyServer::FileLogAppender	signature:(const std::string& filename)
+MyServer::FileLogAppender::FileLogAppender	log.h	/^	FileLogAppender(const std::string& filename);$/;"	p	class:MyServer::FileLogAppender	access:public	signature:(const std::string& filename)
+MyServer::FileLogAppender::log	log.cc	/^void FileLogAppender::log(std::shared_ptr<Logger> logger, LogLevel::Level level, LogEvent::ptr event){$/;"	f	class:MyServer::FileLogAppender	signature:(std::shared_ptr<Logger> logger, LogLevel::Level level, LogEvent::ptr event)
+MyServer::FileLogAppender::m_filename	log.h	/^	std::string m_filename;$/;"	m	class:MyServer::FileLogAppender	access:private
+MyServer::FileLogAppender::m_filestream	log.h	/^	std::ofstream m_filestream;$/;"	m	class:MyServer::FileLogAppender	access:private
+MyServer::FileLogAppender::override	log.h	/^	void log(std::shared_ptr<Logger> logger, LogLevel::Level level, LogEvent::ptr event) override;$/;"	m	class:MyServer::FileLogAppender	access:public
+MyServer::FileLogAppender::ptr	log.h	/^	typedef std::shared_ptr<FileLogAppender> ptr;$/;"	t	class:MyServer::FileLogAppender	access:public
+MyServer::FileLogAppender::reopen	log.cc	/^bool FileLogAppender::reopen() {$/;"	f	class:MyServer::FileLogAppender	signature:()
+MyServer::FileLogAppender::reopen	log.h	/^	bool reopen();$/;"	p	class:MyServer::FileLogAppender	access:public	signature:()
+MyServer::FileNameFormatItem	log.cc	/^class FileNameFormatItem : public LogFormatter::FormatItem {$/;"	c	namespace:MyServer	file:	inherits:LogFormatter::FormatItem
+MyServer::FileNameFormatItem::FileNameFormatItem	log.cc	/^	FileNameFormatItem(const std::string& str = "") {}$/;"	f	class:MyServer::FileNameFormatItem	access:public	signature:(const std::string& str = �)
+MyServer::LevelFormatItem	log.cc	/^class LevelFormatItem : public LogFormatter::FormatItem {$/;"	c	namespace:MyServer	file:	inherits:LogFormatter::FormatItem
+MyServer::LevelFormatItem::LevelFormatItem	log.cc	/^	LevelFormatItem(const std::string& str = "") {}$/;"	f	class:MyServer::LevelFormatItem	access:public	signature:(const std::string& str = �)
+MyServer::LineFormatItem	log.cc	/^class LineFormatItem : public LogFormatter::FormatItem {$/;"	c	namespace:MyServer	file:	inherits:LogFormatter::FormatItem
+MyServer::LineFormatItem::LineFormatItem	log.cc	/^	LineFormatItem(const std::string& str = "") {}$/;"	f	class:MyServer::LineFormatItem	access:public	signature:(const std::string& str = �)
+MyServer::LogAppender	log.h	/^class LogAppender{$/;"	c	namespace:MyServer
+MyServer::LogAppender::getForfmatter	log.h	/^	LogFormatter::ptr getFormatter() const { return m_formatter; }$/;"	f	class:MyServer::LogAppender	access:public	signature:() const
+MyServer::LogAppender::log	log.h	/^	virtual void log(std::shared_ptr<Logger> logger, LogLevel::Level Level, LogEvent::ptr event) = 0;$/;"	p	class:MyServer::LogAppender	access:public	signature:(std::shared_ptr<Logger> logger, LogLevel::Level Level, LogEvent::ptr event)
+MyServer::LogAppender::m_formatter	log.h	/^	LogFormatter::ptr m_formatter;$/;"	m	class:MyServer::LogAppender	access:protected
+MyServer::LogAppender::m_level	log.h	/^	LogLevel::Level m_level;$/;"	m	class:MyServer::LogAppender	access:protected
+MyServer::LogAppender::ptr	log.h	/^	typedef std::shared_ptr<LogAppender> ptr;$/;"	t	class:MyServer::LogAppender	access:public
+MyServer::LogAppender::setFormatter	log.h	/^	void setFormatter(LogFormatter::ptr val) { m_formatter = val; }$/;"	f	class:MyServer::LogAppender	access:public	signature:(LogFormatter::ptr val)
+MyServer::LogAppender::~LogAppender	log.h	/^	virtual ~LogAppender() {}$/;"	f	class:MyServer::LogAppender	access:public	signature:()
+MyServer::LogEvent	log.h	/^class LogEvent {$/;"	c	namespace:MyServer
+MyServer::LogEvent::LogEvent	log.h	/^	LogEvent();$/;"	p	class:MyServer::LogEvent	access:public	signature:()
+MyServer::LogEvent::getContent	log.h	/^    	const std::string& getContent() const { return m_content;}$/;"	f	class:MyServer::LogEvent	access:public	signature:() const
+MyServer::LogEvent::getElapse	log.h	/^	uint32_t getElapse() const { return m_elapse;}$/;"	f	class:MyServer::LogEvent	access:public	signature:() const
+MyServer::LogEvent::getFiberId	log.h	/^   	uint32_t getFiberId() const { return m_fiberId;}$/;"	f	class:MyServer::LogEvent	access:public	signature:() const
+MyServer::LogEvent::getFile	log.h	/^	const char* getFile() const { return m_file;}$/;"	f	class:MyServer::LogEvent	access:public	signature:() const
+MyServer::LogEvent::getLine	log.h	/^	int32_t getLine() const { return m_line;}$/;"	f	class:MyServer::LogEvent	access:public	signature:() const
+MyServer::LogEvent::getThreadId	log.h	/^   	uint32_t getThreadId() const { return m_threadId;}$/;"	f	class:MyServer::LogEvent	access:public	signature:() const
+MyServer::LogEvent::getTime	log.h	/^   	uint64_t getTime() const { return m_time;}$/;"	f	class:MyServer::LogEvent	access:public	signature:() const
+MyServer::LogEvent::m_content	log.h	/^	std::string m_content;$/;"	m	class:MyServer::LogEvent	access:private
+MyServer::LogEvent::m_elapse	log.h	/^	uint32_t m_elapse = 0;          \/\/程序启动开始到现在的毫秒数，因为内存没对齐$/;"	m	class:MyServer::LogEvent	access:private
+MyServer::LogEvent::m_fiberId	log.h	/^	uint32_t m_fiberId = 0;         \/\/协程id$/;"	m	class:MyServer::LogEvent	access:private
+MyServer::LogEvent::m_file	log.h	/^	const char* m_file = nullptr;  \/\/文件名$/;"	m	class:MyServer::LogEvent	access:private
+MyServer::LogEvent::m_line	log.h	/^	int32_t m_line = 0;             \/\/行号$/;"	m	class:MyServer::LogEvent	access:private
+MyServer::LogEvent::m_threadId	log.h	/^	uint32_t m_threadId = 0;        \/\/线程id$/;"	m	class:MyServer::LogEvent	access:private
+MyServer::LogEvent::m_time	log.h	/^	uint64_t m_time = 0;                \/\/时间戳$/;"	m	class:MyServer::LogEvent	access:private
+MyServer::LogEvent::ptr	log.h	/^	typedef std::shared_ptr<LogEvent> ptr; $/;"	t	class:MyServer::LogEvent	access:public
+MyServer::LogFormatter	log.h	/^class LogFormatter {$/;"	c	namespace:MyServer
+MyServer::LogFormatter::FormatItem	log.h	/^	class FormatItem {$/;"	c	class:MyServer::LogFormatter	access:public
+MyServer::LogFormatter::FormatItem::FormatItem	log.h	/^		FormatItem(const std::string& fmt = "") {}$/;"	f	class:MyServer::LogFormatter::FormatItem	access:public	signature:(const std::string& fmt = �)
+MyServer::LogFormatter::FormatItem::format	log.h	/^		virtual void format(std::ostream& os, std::shared_ptr<Logger> logger, LogLevel::Level level, LogEvent::ptr event) = 0;$/;"	p	class:MyServer::LogFormatter::FormatItem	access:public	signature:(std::ostream& os, std::shared_ptr<Logger> logger, LogLevel::Level level, LogEvent::ptr event)
+MyServer::LogFormatter::FormatItem::ptr	log.h	/^		typedef std::shared_ptr<FormatItem> ptr;$/;"	t	class:MyServer::LogFormatter::FormatItem	access:public
+MyServer::LogFormatter::FormatItem::~FormatItem	log.h	/^		virtual ~FormatItem() {}$/;"	f	class:MyServer::LogFormatter::FormatItem	access:public	signature:()
+MyServer::LogFormatter::LogFormatter	log.cc	/^LogFormatter::LogFormatter(const std::string& pattern)$/;"	f	class:MyServer::LogFormatter	signature:(const std::string& pattern)
+MyServer::LogFormatter::LogFormatter	log.h	/^	LogFormatter(const std::string& pattern);$/;"	p	class:MyServer::LogFormatter	access:public	signature:(const std::string& pattern)
+MyServer::LogFormatter::format	log.cc	/^std::string LogFormatter::format(std::shared_ptr<Logger> logger, LogLevel::Level level, LogEvent::ptr event){$/;"	f	class:MyServer::LogFormatter	signature:(std::shared_ptr<Logger> logger, LogLevel::Level level, LogEvent::ptr event)
+MyServer::LogFormatter::format	log.h	/^	std::string format(std::shared_ptr<Logger> logger, LogLevel::Level level, LogEvent::ptr event);$/;"	p	class:MyServer::LogFormatter	access:public	signature:(std::shared_ptr<Logger> logger, LogLevel::Level level, LogEvent::ptr event)
+MyServer::LogFormatter::init	log.cc	/^void LogFormatter::init() {$/;"	f	class:MyServer::LogFormatter	signature:()
+MyServer::LogFormatter::init	log.h	/^	void init();$/;"	p	class:MyServer::LogFormatter	access:public	signature:()
+MyServer::LogFormatter::m_items	log.h	/^	std::vector<FormatItem> m_items;$/;"	m	class:MyServer::LogFormatter	access:private
+MyServer::LogFormatter::m_pattern	log.h	/^	std::string m_pattern;$/;"	m	class:MyServer::LogFormatter	access:private
+MyServer::LogFormatter::ptr	log.h	/^	typedef std::shared_ptr<LogFormatter> ptr;$/;"	t	class:MyServer::LogFormatter	access:public
+MyServer::LogLevel	log.h	/^class LogLevel {$/;"	c	namespace:MyServer
+MyServer::LogLevel::DEBUG	log.h	/^		DEBUG = 1,$/;"	e	enum:MyServer::LogLevel::Level
+MyServer::LogLevel::ERROR	log.h	/^		ERROR = 4,$/;"	e	enum:MyServer::LogLevel::Level
+MyServer::LogLevel::FATAL	log.h	/^		FATAL = 5$/;"	e	enum:MyServer::LogLevel::Level
+MyServer::LogLevel::INFO	log.h	/^		INFO = 2,$/;"	e	enum:MyServer::LogLevel::Level
+MyServer::LogLevel::Level	log.h	/^	enum  Level{$/;"	g	class:MyServer::LogLevel	access:public
+MyServer::LogLevel::ToString	log.cc	/^const char* LogLevel::ToString(LogLevel::Level level) {$/;"	f	class:MyServer::LogLevel	signature:(LogLevel::Level level)
+MyServer::LogLevel::ToString	log.h	/^	static const char* ToString(LogLevel::Level level);$/;"	p	class:MyServer::LogLevel	access:public	signature:(LogLevel::Level level)
+MyServer::LogLevel::UNKNOW	log.h	/^		UNKNOW = 0,$/;"	e	enum:MyServer::LogLevel::Level
+MyServer::LogLevel::WARN	log.h	/^		WARN = 3,$/;"	e	enum:MyServer::LogLevel::Level
+MyServer::Logger	log.h	/^class Logger : public std::enable_shared_from_this<Logger>{$/;"	c	namespace:MyServer	inherits:std::enable_shared_from_this
+MyServer::Logger::Logger	log.cc	/^Logger::Logger(const std::string& name ):m_name(name) {$/;"	f	class:MyServer::Logger	signature:(const std::string& name )
+MyServer::Logger::Logger	log.h	/^	Logger(const std::string& name = "root");$/;"	p	class:MyServer::Logger	access:public	signature:(const std::string& name = �)
+MyServer::Logger::addAppender	log.cc	/^void Logger::addAppender(LogAppender::ptr appender) {$/;"	f	class:MyServer::Logger	signature:(LogAppender::ptr appender)
+MyServer::Logger::addAppender	log.h	/^	void addAppender(LogAppender::ptr appender);$/;"	p	class:MyServer::Logger	access:public	signature:(LogAppender::ptr appender)
+MyServer::Logger::debug	log.cc	/^void Logger::debug(LogEvent::ptr event) {$/;"	f	class:MyServer::Logger	signature:(LogEvent::ptr event)
+MyServer::Logger::debug	log.h	/^	void debug(LogEvent::ptr event);$/;"	p	class:MyServer::Logger	access:public	signature:(LogEvent::ptr event)
+MyServer::Logger::delAppender	log.cc	/^void Logger::delAppender(LogAppender::ptr appender) {$/;"	f	class:MyServer::Logger	signature:(LogAppender::ptr appender)
+MyServer::Logger::delAppender	log.h	/^	void delAppender(LogAppender::ptr appender);$/;"	p	class:MyServer::Logger	access:public	signature:(LogAppender::ptr appender)
+MyServer::Logger::error	log.cc	/^void Logger::error(LogEvent::ptr event) {$/;"	f	class:MyServer::Logger	signature:(LogEvent::ptr event)
+MyServer::Logger::error	log.h	/^	void error(LogEvent::ptr event);$/;"	p	class:MyServer::Logger	access:public	signature:(LogEvent::ptr event)
+MyServer::Logger::fatal	log.cc	/^void Logger::fatal(LogEvent::ptr event) {$/;"	f	class:MyServer::Logger	signature:(LogEvent::ptr event)
+MyServer::Logger::fatal	log.h	/^	void fatal(LogEvent::ptr event);$/;"	p	class:MyServer::Logger	access:public	signature:(LogEvent::ptr event)
+MyServer::Logger::getLevel	log.h	/^	LogLevel::Level getLevel() const { return m_level; }$/;"	f	class:MyServer::Logger	access:public	signature:() const
+MyServer::Logger::getName	log.h	/^	const std::string& getName() const {return m_name;}$/;"	f	class:MyServer::Logger	access:public	signature:() const
+MyServer::Logger::info	log.cc	/^void Logger::info(LogEvent::ptr event) {$/;"	f	class:MyServer::Logger	signature:(LogEvent::ptr event)
+MyServer::Logger::info	log.h	/^	void info(LogEvent::ptr event);$/;"	p	class:MyServer::Logger	access:public	signature:(LogEvent::ptr event)
+MyServer::Logger::log	log.cc	/^void Logger::log(LogLevel::Level level, LogEvent::ptr event) {$/;"	f	class:MyServer::Logger	signature:(LogLevel::Level level, LogEvent::ptr event)
+MyServer::Logger::log	log.h	/^	void log(LogLevel::Level level, LogEvent::ptr event);$/;"	p	class:MyServer::Logger	access:public	signature:(LogLevel::Level level, LogEvent::ptr event)
+MyServer::Logger::m_appenders	log.h	/^	std::list<LogAppender::ptr> m_appenders;   \/\/Appender集合$/;"	m	class:MyServer::Logger	access:private
+MyServer::Logger::m_formatter	log.h	/^	LogFormatter::ptr m_formatter;$/;"	m	class:MyServer::Logger	access:private
+MyServer::Logger::m_level	log.h	/^	LogLevel::Level m_level;                   \/\/日志集合$/;"	m	class:MyServer::Logger	access:private
+MyServer::Logger::m_name	log.h	/^	std::string m_name;                        \/\/日志名称$/;"	m	class:MyServer::Logger	access:private
+MyServer::Logger::ptr	log.h	/^	typedef std::shared_ptr<Logger> ptr;$/;"	t	class:MyServer::Logger	access:public
+MyServer::Logger::setLevel	log.h	/^	void setLevel(LogLevel::Level val) { m_level = val; }$/;"	f	class:MyServer::Logger	access:public	signature:(LogLevel::Level val)
+MyServer::Logger::warn	log.cc	/^void Logger::warn(LogEvent::ptr event) {$/;"	f	class:MyServer::Logger	signature:(LogEvent::ptr event)
+MyServer::Logger::warn	log.h	/^	void warn(LogEvent::ptr event);$/;"	p	class:MyServer::Logger	access:public	signature:(LogEvent::ptr event)
+MyServer::MessageFormatItem	log.cc	/^class MessageFormatItem : public LogFormatter::FormatItem {$/;"	c	namespace:MyServer	file:	inherits:LogFormatter::FormatItem
+MyServer::MessageFormatItem::MessageFormatItem	log.cc	/^	MessageFormatItem(const std::string& str = "") {}$/;"	f	class:MyServer::MessageFormatItem	access:public	signature:(const std::string& str = �)
+MyServer::NameFormatItem	log.cc	/^class NameFormatItem : public LogFormatter::FormatItem {$/;"	c	namespace:MyServer	file:	inherits:LogFormatter::FormatItem
+MyServer::NameFormatItem::NameFormatItem	log.cc	/^	NameFormatItem(const std::string& str = "") {}$/;"	f	class:MyServer::NameFormatItem	access:public	signature:(const std::string& str = �)
+MyServer::NewLineFormatItem	log.cc	/^class NewLineFormatItem : public LogFormatter::FormatItem {$/;"	c	namespace:MyServer	file:	inherits:LogFormatter::FormatItem
+MyServer::NewLineFormatItem::NewLineFormatItem	log.cc	/^	NewLineFormatItem(const std::string& str = "") {}$/;"	f	class:MyServer::NewLineFormatItem	access:public	signature:(const std::string& str = �)
+MyServer::StdoutAppender	log.h	/^class StdoutAppender : public LogAppender {$/;"	c	namespace:MyServer	inherits:LogAppender
+MyServer::StdoutAppender::log	log.cc	/^void StdoutAppender::log(std::shared_ptr<Logger> logger, LogLevel::Level level, LogEvent::ptr event) {$/;"	f	class:MyServer::StdoutAppender	signature:(std::shared_ptr<Logger> logger, LogLevel::Level level, LogEvent::ptr event)
+MyServer::StdoutAppender::override	log.h	/^	void log(std::shared_ptr<Logger> logger, LogLevel::Level level, LogEvent::ptr event) override;$/;"	m	class:MyServer::StdoutAppender	access:public
+MyServer::StdoutAppender::ptr	log.h	/^	typedef std::shared_ptr<StdoutAppender> ptr;$/;"	t	class:MyServer::StdoutAppender	access:public
+MyServer::StringFormatItem	log.cc	/^class StringFormatItem : public LogFormatter::FormatItem {$/;"	c	namespace:MyServer	file:	inherits:LogFormatter::FormatItem
+MyServer::StringFormatItem::StringFormatItem	log.cc	/^    StringFormatItem(const std::string& str)$/;"	f	class:MyServer::StringFormatItem	access:public	signature:(const std::string& str)
+MyServer::StringFormatItem::m_string	log.cc	/^    std::string m_string;$/;"	m	class:MyServer::StringFormatItem	file:	access:private
+MyServer::ThreadIdFormatItem	log.cc	/^class ThreadIdFormatItem : public LogFormatter::FormatItem {$/;"	c	namespace:MyServer	file:	inherits:LogFormatter::FormatItem
+MyServer::ThreadIdFormatItem::ThreadIdFormatItem	log.cc	/^	ThreadIdFormatItem(const std::string& str = "") {}$/;"	f	class:MyServer::ThreadIdFormatItem	access:public	signature:(const std::string& str = �)
+NameFormatItem	log.cc	/^	NameFormatItem(const std::string& str = "") {}$/;"	f	class:MyServer::NameFormatItem	access:public	signature:(const std::string& str = �)
+NameFormatItem	log.cc	/^class NameFormatItem : public LogFormatter::FormatItem {$/;"	c	namespace:MyServer	file:	inherits:LogFormatter::FormatItem
+NewLineFormatItem	log.cc	/^	NewLineFormatItem(const std::string& str = "") {}$/;"	f	class:MyServer::NewLineFormatItem	access:public	signature:(const std::string& str = �)
+NewLineFormatItem	log.cc	/^class NewLineFormatItem : public LogFormatter::FormatItem {$/;"	c	namespace:MyServer	file:	inherits:LogFormatter::FormatItem
+StdoutAppender	log.h	/^class StdoutAppender : public LogAppender {$/;"	c	namespace:MyServer	inherits:LogAppender
+StringFormatItem	log.cc	/^    StringFormatItem(const std::string& str)$/;"	f	class:MyServer::StringFormatItem	access:public	signature:(const std::string& str)
+StringFormatItem	log.cc	/^class StringFormatItem : public LogFormatter::FormatItem {$/;"	c	namespace:MyServer	file:	inherits:LogFormatter::FormatItem
+ThreadIdFormatItem	log.cc	/^	ThreadIdFormatItem(const std::string& str = "") {}$/;"	f	class:MyServer::ThreadIdFormatItem	access:public	signature:(const std::string& str = �)
+ThreadIdFormatItem	log.cc	/^class ThreadIdFormatItem : public LogFormatter::FormatItem {$/;"	c	namespace:MyServer	file:	inherits:LogFormatter::FormatItem
+ToString	log.cc	/^const char* LogLevel::ToString(LogLevel::Level level) {$/;"	f	class:MyServer::LogLevel	signature:(LogLevel::Level level)
+ToString	log.h	/^	static const char* ToString(LogLevel::Level level);$/;"	p	class:MyServer::LogLevel	access:public	signature:(LogLevel::Level level)
+UNKNOW	log.h	/^		UNKNOW = 0,$/;"	e	enum:MyServer::LogLevel::Level
+WARN	log.h	/^		WARN = 3,$/;"	e	enum:MyServer::LogLevel::Level
+XX	log.cc	10;"	d	file:
+XX	log.cc	20;"	d	file:
+XX	log.cc	298;"	d	file:
+XX	log.cc	310;"	d	file:
+__SERVER_FRAMEWORK_LOG_H	log.h	2;"	d
+addAppender	log.cc	/^void Logger::addAppender(LogAppender::ptr appender) {$/;"	f	class:MyServer::Logger	signature:(LogAppender::ptr appender)
+addAppender	log.h	/^	void addAppender(LogAppender::ptr appender);$/;"	p	class:MyServer::Logger	access:public	signature:(LogAppender::ptr appender)
+debug	log.cc	/^void Logger::debug(LogEvent::ptr event) {$/;"	f	class:MyServer::Logger	signature:(LogEvent::ptr event)
+debug	log.h	/^	void debug(LogEvent::ptr event);$/;"	p	class:MyServer::Logger	access:public	signature:(LogEvent::ptr event)
+delAppender	log.cc	/^void Logger::delAppender(LogAppender::ptr appender) {$/;"	f	class:MyServer::Logger	signature:(LogAppender::ptr appender)
+delAppender	log.h	/^	void delAppender(LogAppender::ptr appender);$/;"	p	class:MyServer::Logger	access:public	signature:(LogAppender::ptr appender)
+error	log.cc	/^void Logger::error(LogEvent::ptr event) {$/;"	f	class:MyServer::Logger	signature:(LogEvent::ptr event)
+error	log.h	/^	void error(LogEvent::ptr event);$/;"	p	class:MyServer::Logger	access:public	signature:(LogEvent::ptr event)
+fatal	log.cc	/^void Logger::fatal(LogEvent::ptr event) {$/;"	f	class:MyServer::Logger	signature:(LogEvent::ptr event)
+fatal	log.h	/^	void fatal(LogEvent::ptr event);$/;"	p	class:MyServer::Logger	access:public	signature:(LogEvent::ptr event)
+format	log.cc	/^std::string LogFormatter::format(std::shared_ptr<Logger> logger, LogLevel::Level level, LogEvent::ptr event){$/;"	f	class:MyServer::LogFormatter	signature:(std::shared_ptr<Logger> logger, LogLevel::Level level, LogEvent::ptr event)
+format	log.h	/^		virtual void format(std::ostream& os, std::shared_ptr<Logger> logger, LogLevel::Level level, LogEvent::ptr event) = 0;$/;"	p	class:MyServer::LogFormatter::FormatItem	access:public	signature:(std::ostream& os, std::shared_ptr<Logger> logger, LogLevel::Level level, LogEvent::ptr event)
+format	log.h	/^	std::string format(std::shared_ptr<Logger> logger, LogLevel::Level level, LogEvent::ptr event);$/;"	p	class:MyServer::LogFormatter	access:public	signature:(std::shared_ptr<Logger> logger, LogLevel::Level level, LogEvent::ptr event)
+getContent	log.h	/^    	const std::string& getContent() const { return m_content;}$/;"	f	class:MyServer::LogEvent	access:public	signature:() const
+getElapse	log.h	/^	uint32_t getElapse() const { return m_elapse;}$/;"	f	class:MyServer::LogEvent	access:public	signature:() const
+getFiberId	log.h	/^   	uint32_t getFiberId() const { return m_fiberId;}$/;"	f	class:MyServer::LogEvent	access:public	signature:() const
+getFile	log.h	/^	const char* getFile() const { return m_file;}$/;"	f	class:MyServer::LogEvent	access:public	signature:() const
+getForfmatter	log.h	/^	LogFormatter::ptr getFormatter() const { return m_formatter; }$/;"	f	class:MyServer::LogAppender	access:public	signature:() const
+getLevel	log.h	/^	LogLevel::Level getLevel() const { return m_level; }$/;"	f	class:MyServer::Logger	access:public	signature:() const
+getLine	log.h	/^	int32_t getLine() const { return m_line;}$/;"	f	class:MyServer::LogEvent	access:public	signature:() const
+getName	log.h	/^	const std::string& getName() const {return m_name;}$/;"	f	class:MyServer::Logger	access:public	signature:() const
+getThreadId	log.h	/^   	uint32_t getThreadId() const { return m_threadId;}$/;"	f	class:MyServer::LogEvent	access:public	signature:() const
+getTime	log.h	/^   	uint64_t getTime() const { return m_time;}$/;"	f	class:MyServer::LogEvent	access:public	signature:() const
+info	log.cc	/^void Logger::info(LogEvent::ptr event) {$/;"	f	class:MyServer::Logger	signature:(LogEvent::ptr event)
+info	log.h	/^	void info(LogEvent::ptr event);$/;"	p	class:MyServer::Logger	access:public	signature:(LogEvent::ptr event)
+init	log.cc	/^void LogFormatter::init() {$/;"	f	class:MyServer::LogFormatter	signature:()
+init	log.h	/^	void init();$/;"	p	class:MyServer::LogFormatter	access:public	signature:()
+log	log.cc	/^void FileLogAppender::log(std::shared_ptr<Logger> logger, LogLevel::Level level, LogEvent::ptr event){$/;"	f	class:MyServer::FileLogAppender	signature:(std::shared_ptr<Logger> logger, LogLevel::Level level, LogEvent::ptr event)
+log	log.cc	/^void Logger::log(LogLevel::Level level, LogEvent::ptr event) {$/;"	f	class:MyServer::Logger	signature:(LogLevel::Level level, LogEvent::ptr event)
+log	log.cc	/^void StdoutAppender::log(std::shared_ptr<Logger> logger, LogLevel::Level level, LogEvent::ptr event) {$/;"	f	class:MyServer::StdoutAppender	signature:(std::shared_ptr<Logger> logger, LogLevel::Level level, LogEvent::ptr event)
+log	log.h	/^	virtual void log(std::shared_ptr<Logger> logger, LogLevel::Level Level, LogEvent::ptr event) = 0;$/;"	p	class:MyServer::LogAppender	access:public	signature:(std::shared_ptr<Logger> logger, LogLevel::Level Level, LogEvent::ptr event)
+log	log.h	/^	void log(LogLevel::Level level, LogEvent::ptr event);$/;"	p	class:MyServer::Logger	access:public	signature:(LogLevel::Level level, LogEvent::ptr event)
+m_appenders	log.h	/^	std::list<LogAppender::ptr> m_appenders;   \/\/Appender集合$/;"	m	class:MyServer::Logger	access:private
+m_content	log.h	/^	std::string m_content;$/;"	m	class:MyServer::LogEvent	access:private
+m_elapse	log.h	/^	uint32_t m_elapse = 0;          \/\/程序启动开始到现在的毫秒数，因为内存没对齐$/;"	m	class:MyServer::LogEvent	access:private
+m_fiberId	log.h	/^	uint32_t m_fiberId = 0;         \/\/协程id$/;"	m	class:MyServer::LogEvent	access:private
+m_file	log.h	/^	const char* m_file = nullptr;  \/\/文件名$/;"	m	class:MyServer::LogEvent	access:private
+m_filename	log.h	/^	std::string m_filename;$/;"	m	class:MyServer::FileLogAppender	access:private
+m_filestream	log.h	/^	std::ofstream m_filestream;$/;"	m	class:MyServer::FileLogAppender	access:private
+m_format	log.cc	/^	std::string m_format;$/;"	m	class:MyServer::DateTimeFormatItem	file:	access:private
+m_formatter	log.h	/^	LogFormatter::ptr m_formatter;$/;"	m	class:MyServer::LogAppender	access:protected
+m_formatter	log.h	/^	LogFormatter::ptr m_formatter;$/;"	m	class:MyServer::Logger	access:private
+m_items	log.h	/^	std::vector<FormatItem> m_items;$/;"	m	class:MyServer::LogFormatter	access:private
+m_level	log.h	/^	LogLevel::Level m_level;                   \/\/日志集合$/;"	m	class:MyServer::Logger	access:private
+m_level	log.h	/^	LogLevel::Level m_level;$/;"	m	class:MyServer::LogAppender	access:protected
+m_line	log.h	/^	int32_t m_line = 0;             \/\/行号$/;"	m	class:MyServer::LogEvent	access:private
+m_name	log.h	/^	std::string m_name;                        \/\/日志名称$/;"	m	class:MyServer::Logger	access:private
+m_pattern	log.h	/^	std::string m_pattern;$/;"	m	class:MyServer::LogFormatter	access:private
+m_string	log.cc	/^    std::string m_string;$/;"	m	class:MyServer::StringFormatItem	file:	access:private
+m_threadId	log.h	/^	uint32_t m_threadId = 0;        \/\/线程id$/;"	m	class:MyServer::LogEvent	access:private
+m_time	log.h	/^	uint64_t m_time = 0;                \/\/时间戳$/;"	m	class:MyServer::LogEvent	access:private
+override	log.h	/^	void log(std::shared_ptr<Logger> logger, LogLevel::Level level, LogEvent::ptr event) override;$/;"	m	class:MyServer::FileLogAppender	access:public
+override	log.h	/^	void log(std::shared_ptr<Logger> logger, LogLevel::Level level, LogEvent::ptr event) override;$/;"	m	class:MyServer::StdoutAppender	access:public
+ptr	log.h	/^		typedef std::shared_ptr<FormatItem> ptr;$/;"	t	class:MyServer::LogFormatter::FormatItem	access:public
+ptr	log.h	/^	typedef std::shared_ptr<FileLogAppender> ptr;$/;"	t	class:MyServer::FileLogAppender	access:public
+ptr	log.h	/^	typedef std::shared_ptr<LogAppender> ptr;$/;"	t	class:MyServer::LogAppender	access:public
+ptr	log.h	/^	typedef std::shared_ptr<LogEvent> ptr; $/;"	t	class:MyServer::LogEvent	access:public
+ptr	log.h	/^	typedef std::shared_ptr<LogFormatter> ptr;$/;"	t	class:MyServer::LogFormatter	access:public
+ptr	log.h	/^	typedef std::shared_ptr<Logger> ptr;$/;"	t	class:MyServer::Logger	access:public
+ptr	log.h	/^	typedef std::shared_ptr<StdoutAppender> ptr;$/;"	t	class:MyServer::StdoutAppender	access:public
+reopen	log.cc	/^bool FileLogAppender::reopen() {$/;"	f	class:MyServer::FileLogAppender	signature:()
+reopen	log.h	/^	bool reopen();$/;"	p	class:MyServer::FileLogAppender	access:public	signature:()
+setFormatter	log.h	/^	void setFormatter(LogFormatter::ptr val) { m_formatter = val; }$/;"	f	class:MyServer::LogAppender	access:public	signature:(LogFormatter::ptr val)
+setLevel	log.h	/^	void setLevel(LogLevel::Level val) { m_level = val; }$/;"	f	class:MyServer::Logger	access:public	signature:(LogLevel::Level val)
+warn	log.cc	/^void Logger::warn(LogEvent::ptr event) {$/;"	f	class:MyServer::Logger	signature:(LogEvent::ptr event)
+warn	log.h	/^	void warn(LogEvent::ptr event);$/;"	p	class:MyServer::Logger	access:public	signature:(LogEvent::ptr event)
+~FormatItem	log.h	/^		virtual ~FormatItem() {}$/;"	f	class:MyServer::LogFormatter::FormatItem	access:public	signature:()
+~LogAppender	log.h	/^	virtual ~LogAppender() {}$/;"	f	class:MyServer::LogAppender	access:public	signature:()
